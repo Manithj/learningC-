@@ -1,6 +1,6 @@
 ## <u>Classes vs Struct</u>
 
-### C++ Class
+### <u>C++ Class</u>
 
 In C++, class is a group of similar objects. It is a template from which objects are created. It can have fields, methods, constructors etc.
 
@@ -42,7 +42,7 @@ Output
 Sonoo Jaiswal
 ```
 
-### C++ Structs
+### <u>C++ Structs</u>
 
 In C++, classes and structs are blueprints that are used to create the instance of a class. Structs are used for lightweight objects such as Rectangle, color, Point, etc.
 
