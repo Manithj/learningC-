@@ -8,7 +8,7 @@ eg:-
 ```c++
 class Student    
 {    
-   public:  
+public:  
    int id;  //field or data member     
    float salary; //field or data member  
    String name;//field or data member    
