@@ -7,12 +7,12 @@ In C++, class is a group of similar objects. It is a template from which objects
 eg:-
 ```c++
 class Student    
- {    
-     public:  
-     int id;  //field or data member     
-     float salary; //field or data member  
-     String name;//field or data member    
- }
+{    
+   public:  
+   int id;  //field or data member     
+   float salary; //field or data member  
+   String name;//field or data member    
+}
  ```
 
  C++ object class
@@ -21,9 +21,9 @@ class Student
 #include <iostream>  
 using namespace std;  
    class Student {  
-      public:  
-         int id;//data member (also instance variable)      
-         string name;//data member(also instance variable)      
+   public:  
+      int id;//data member (also instance variable)      
+      string name;//data member(also instance variable)      
    };  
    int main() {  
       Student s1; //creating an object of Student   
