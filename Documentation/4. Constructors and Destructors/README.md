@@ -39,14 +39,16 @@ A constructor is a class which accepts no parameter and is called a default cons
 ```c++
 class class_name {  
 private:  
-………..  
-………..  
+    int x;
+    float y;
 public:  
-class_name ()  
-{  
-…….  
-}  
-} 
+    class_name () {
+        // Default constructor implementation
+        x = 0;
+        y = 0.0f;
+    }
+};
+
 ```
 
 #### Parameterized constructor
@@ -54,16 +56,15 @@ class_name ()
 A constructor is a class that can take parameters and is called a parameterized constructor. It is used to initialize objects with a different set of values.
 
 ```c++
-Class classname  
-{  
-…………;  
-…………;  
-Public:  
-Class name (parameter list)  
-{  
-………….;  
-}  
-}; 
+class classname {
+private:
+  int private_variable; // an example private member variable
+public:
+  classname(int parameter1, int parameter2) {
+    // constructor implementation
+    private_variable = parameter1 + parameter2;
+    // do some other initialization if needed
+  }
 ```
 
 #### Copy Constructor
@@ -71,11 +72,20 @@ Class name (parameter list)
 A particular constructor used for the creation of an existing object. The copy constructor is used to initialize the thing from another of the same type.
 
 ```c++
-Class (classname, &object)  
-{  
-………….;  
-………….;  
-}  
+class classname {
+private:
+  int private_variable;
+public:
+  classname(int value) {
+    private_variable = value;
+  }
+  
+  // copy constructor
+  classname(const classname& other) {
+    private_variable = other.private_variable;
+  }
+};
+
 ```
 
 #### Dynamic constructor
