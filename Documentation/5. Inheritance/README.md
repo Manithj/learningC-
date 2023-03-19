@@ -199,10 +199,10 @@ protected:
 public:  
     void mul()  
     {  
-         get_a();  
-         get_b();  
-         get_c();  
-         std::cout << "Multiplication of a,b,c is : " <<a*b*c<< std::endl;  
+    get_a();  
+    get_b();  
+    get_c();  
+    std::cout << "Multiplication of a,b,c is : " <<a*b*c<< std::endl;  
     }  
 };  
 int main()  
@@ -264,20 +264,20 @@ public:
 };  
 int main()  
 {  
-    Rectangle r;  
-    Triangle t;  
-    int length,breadth,base,height;  
-    std::cout << "Enter the length and breadth of a rectangle: " << std::endl;  
-    cin>>length>>breadth;  
-    r.get_data(length,breadth);  
-    int m = r.rect_area();  
-    std::cout << "Area of the rectangle is : " <<m<< std::endl;  
-    std::cout << "Enter the base and height of the triangle: " << std::endl;  
-    cin>>base>>height;  
-    t.get_data(base,height);  
-    float n = t.triangle_area();  
-    std::cout <<"Area of the triangle is : "  << n<<std::endl;  
-    return 0;  
+Rectangle r;  
+Triangle t;  
+int length,breadth,base,height;  
+std::cout << "Enter the length and breadth of a rectangle: " << std::endl;  
+cin>>length>>breadth;  
+r.get_data(length,breadth);  
+int m = r.rect_area();  
+std::cout << "Area of the rectangle is : " <<m<< std::endl;  
+std::cout << "Enter the base and height of the triangle: " << std::endl;  
+cin>>base>>height;  
+t.get_data(base,height);  
+float n = t.triangle_area();  
+std::cout <<"Area of the triangle is : "  << n<<std::endl;  
+return 0;  
 }
 ```
 
