@@ -9,12 +9,12 @@ eg:-
 ```c++
 #include <iostream>  
 using namespace std;  
- class Shape    
+class Shape    
 {    
 public:   
     virtual void draw()=0;    
 };    
- class Rectangle : Shape    
+class Rectangle : Shape    
 {    
 public:  
      void draw()    
