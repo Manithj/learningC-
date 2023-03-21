@@ -39,7 +39,7 @@ x = 10
 y = 15
 ```
 
-Uses
+## Use cases
 
 ### 1) For initialization of non-static const data members
 
