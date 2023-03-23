@@ -9,3 +9,4 @@ C++ is a powerful general-purpose programming language. It can be used to develo
 - [Inheritance](./Documentation/5.%20Inheritance)
 - [Interface](./Documentation/6.%20Interface)
 - [Member Initializer list](./Documentation/7.%20Member%20Initializer%20list)
+- [Implicit and Explicit Conversion](./Documentation/8.%20Implicit%20and%20Explicit%20Conversion)
