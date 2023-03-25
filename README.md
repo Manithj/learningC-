@@ -10,5 +10,5 @@ C++ is a powerful general-purpose programming language. It can be used to develo
 - [Interface](./Documentation/6.%20Interface)
 - [Member Initializer list](./Documentation/7.%20Member%20Initializer%20list)
 - [Implicit and Explicit Conversion](./Documentation/8.%20Implicit%20and%20Explicit%20Conversion)
+- [new and this keyword](./Documentation/9.%20new%20and%20this%20keyword)
 - [Overloading (Function and Operator)](./Documentation/10.%20Overloading%20(Function%20and%20Operator))
-
