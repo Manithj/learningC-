@@ -28,11 +28,13 @@ public:
 static int add(int a,int b){      
     return a + b;      
 }      
+
 static int add(int a, int b, int c)      
 {      
     return a + b + c;      
 }      
 };     
+
 int main(void) {    
     Cal C;                           //     class object declaration.   
     cout<<C.add(10, 20)<<endl;      
@@ -72,10 +74,12 @@ void fun(int i)
 {  
     std::cout << "Value of i is : " <<i<< std::endl;  
 }  
+
 void fun(float j)  
 {  
     std::cout << "Value of j is : " <<j<< std::endl;  
 }  
+
 int main()  
 {  
     fun(12);  
@@ -93,15 +97,18 @@ The above example shows an error "call of overloaded 'fun(double)' is ambiguous"
 using namespace std;  
 void fun(int);  
 void fun(int,int);  
+
 void fun(int i)  
 {  
     std::cout << "Value of i is : " <<i<< std::endl;  
 }  
+
 void fun(int a,int b=9)  
 {  
     std::cout << "Value of a is : " <<a<< std::endl;  
     std::cout << "Value of b is : " <<b<< std::endl;  
 }  
+
 int main()  
 {  
     fun(12);  
@@ -119,16 +126,19 @@ The above example shows an error "call of overloaded 'fun(int)' is ambiguous". T
 using namespace std;  
 void fun(int);  
 void fun(int &);   
+
 int main()  
 {  
 int a=10;  
 fun(a); // error, which f()?  
 return 0;  
 }  
+
 void fun(int x)  
 {  
 std::cout << "Value of x is : " <<x<< std::endl;  
 }  
+
 void fun(int &b)  
 {  
 std::cout << "Value of b is : " <<b<< std::endl;  
@@ -174,10 +184,12 @@ public:
     void operator ++()         {     
         num = num+2;     
     }    
+    
     void Print() {     
         cout<<"The Count is: "<<num;     
     }    
 };    
+
 int main()    
 {    
     Test tt;    
@@ -219,6 +231,7 @@ void A :: operator+(A a)
     cout<<"The result of the addition of two objects is : "<<m;  
   
 }  
+
 int main()  
 {  
     A a1(5);  
