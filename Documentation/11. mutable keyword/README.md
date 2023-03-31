@@ -15,11 +15,11 @@ using namespace std;
 // Customer Class
 class Customer {
 	
-    // class Variables
-    string name;
-    mutable string placedorder;
-    int tableno;
-    mutable int bill;
+	// class Variables
+	string name;
+	mutable string placedorder;
+	int tableno;
+	mutable int bill;
 
 	// member methods
 public:
@@ -33,7 +33,7 @@ public:
 		tableno = a;
 		bill = p;
 	}
-	
+
 	// to change the place holder
 	void changePlacedOrder(string p) const
 	{
