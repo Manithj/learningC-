@@ -22,7 +22,7 @@ A(int a)                // parameterized constructor.
 }  
 A(A &i)               // copy constructor  
 {  
-		x = i.x;  
+	x = i.x;  
 }  
 };  
 int main()  
