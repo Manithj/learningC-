@@ -13,4 +13,4 @@ C++ is a powerful general-purpose programming language. It can be used to develo
 - [new and this keyword](./Documentation/9.%20new%20and%20this%20keyword)
 - [Overloading (Function and Operator)](./Documentation/10.%20Overloading%20(Function%20and%20Operator))
 - [mutable keyword](./Documentation/11.%20mutable%20keyword)
-- [Copy Constructor](./Documentation/12.%20Copy%20constructor%20and%20Move%20Constructors)
+- [Copy Constructor](./Documentation/12.%20Copy%20Constructor)
