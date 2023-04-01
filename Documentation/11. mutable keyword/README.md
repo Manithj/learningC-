@@ -28,16 +28,16 @@ public:
 	// constructor
 	Customer(string s, string m, int a, int p)
 	{
-		name= s;
-		placedorder=m;
-		tableno = a;
-		bill = p;
+	name= s;
+	placedorder=m;
+	tableno = a;
+	bill = p;
 	}
 
 	// to change the place holder
 	void changePlacedOrder(string p) const
 	{
-		placedorder=p;
+	placedorder=p;
 	}
 
 	// change the bill
@@ -46,11 +46,11 @@ public:
 	// to display
 	void display() const
 	{
-		cout << "Customer name is: " << name << endl;
-		cout << "Food ordered by customer is: "
-			<< placedorder << endl;
-		cout << "table no is: " << tableno << endl;
-		cout << "Total payable amount: " << bill << endl;
+	cout << "Customer name is: " << name << endl;
+	cout << "Food ordered by customer is: "
+		<< placedorder << endl;
+	cout << "table no is: " << tableno << endl;
+	cout << "Total payable amount: " << bill << endl;
 	}
 };
 
