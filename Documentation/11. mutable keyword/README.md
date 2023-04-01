@@ -15,13 +15,13 @@ using namespace std;
 // Customer Class
 class Customer {
 	
-	// class Variables
-	string name;
-	mutable string placedorder;
-	int tableno;
-	mutable int bill;
-
-	// member methods
+    // class Variables
+    string name;
+    mutable string placedorder;
+    int tableno;
+    mutable int bill;
+    
+    // member methods
 public:
 
 	
