@@ -110,7 +110,7 @@ eg:-
 using namespace std;  
 class Demo  
 {  
-	public:  
+public:  
 	int a;  
 	int b;  
 	int *p;  
