@@ -22,7 +22,7 @@ A(int a)                // parameterized constructor.
 }  
 A(A &i)               // copy constructor  
 {  
-		x = i.x;  
+	x = i.x;  
 }  
 };  
 int main()  
@@ -110,7 +110,7 @@ eg:-
 using namespace std;  
 class Demo  
 {  
-	public:  
+public:  
 	int a;  
 	int b;  
 	int *p;  
